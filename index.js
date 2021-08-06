@@ -31,7 +31,7 @@ client.on('message', msg => {
 						embed.addField('**친구 수**', info.friendCount);
 						embed.addField('**팔로잉**', info.followingCount);
 						embed.addField('**팔로워**', info.followerCount);
-						//embed.setFooter('Made By | DODO |#1188');
+						//embed.setFooter('Made By 노끄#2557');
 						msg.channel.send(embed);
 					})
 					.catch(err => {
